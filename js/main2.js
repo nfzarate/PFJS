@@ -1,4 +1,4 @@
-//Declaracion de variables principales.
+//Declaración de variables principales.
 
 let cantidad = "";
 
@@ -121,7 +121,7 @@ function resetearCampos() {
 
 }
 
-//En esta función se agrega las filas correspondientes a la selección modificando el DOM y se resetean los campos.
+//En esta función se agregan las filas correspondientes a la selección modificando el DOM y se resetean los campos.
 
 function agregarFilaProducto () {
 
@@ -203,7 +203,7 @@ botonAgregar.addEventListener("click", function(){
 });
 
 
-//Funcion para poder eliminar una determinada fila y se se vuelva a calcular el monto total.
+//Función para poder eliminar una determinada fila y se se vuelva a calcular el monto total.
 
 function borrarFila() {
   let filasCreadas = document.querySelectorAll(".eliminar");
