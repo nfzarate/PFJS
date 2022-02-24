@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizador Online</title>
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+    <div>
+        <nav>
+            <a href="index.html">
+                <img src="./img/Logo.PNG" alt="logo">
+            </a>
+        </nav>
+        <h1>Cotizador Online</h1>
+    </div>
+    <div class="container" id="containerPrincipal">
+        <div id="nuevoProducto">
+            <label for="producto">Producto</label>
+            <select id="producto">
+                <option selected disabled>Seleccione un producto</option>
+            </select>
+
+            <label for="cantidad">Cantidad</label>
+            <input id="cantidad" type="number" placeholder="Ingrese la cantidad">
+            <button id="agregar">Agregar</button>
+        </div>
+        <div id="productosSeleccionados">
+        </div>
+        <div id="total">
+        </div>
+    </div>
+    <div id="modalContainer" class="hideModal">
+        <div id="modal">
+            <h2>¡ ATENCIÓN !</h1>
+            <p>Por favor complete los campos requeridos para agregar un producto</p>
+            <button id="btn-modal">Aceptar</button>
+        </div>
+    </div>
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./js/main2.js"></script>
+
+</body>
+</html>
